@@ -1,10 +1,3 @@
-/* background: rgb(89,85,233);
-background: linear-gradient(180deg, rgba(89,85,233,0.15) 0%, rgba(0,208,156,0.17) 100%); */
-
-/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> */
-
-
-
 @font-face {
   font-family: "forma-djr-text", sans-serif;
   font-style: medium;
@@ -74,7 +67,7 @@ background: linear-gradient(180deg, rgba(89,85,233,0.15) 0%, rgba(0,208,156,0.17
 }
 
 .container {
-  max-width: 80rem;
+  max-width: 85rem;
   margin: 0 auto;
 }
 
@@ -355,7 +348,7 @@ ul.breadcrumb li a.active-breadcrumb {
     var(--gradient);
   padding: 7rem 0;
   background-blend-mode: color-burn;
-  height: 700px;
+  height: 750px;
 }
 
 .background {
@@ -387,7 +380,7 @@ ul.breadcrumb li a.active-breadcrumb {
   flex-direction: column;
   /* justify-content: center; */
   align-items: flex-start;
-  padding-left: 80px;
+  padding-left: 85px;
 }
 
 .hero-section-image {
@@ -457,6 +450,7 @@ p.work-with-content {
   color: var(--para);
   padding: 1em 0em;
   text-align: left;
+  width: 85%;
 }
 
 .fa-ul {
@@ -534,7 +528,7 @@ p.statstitle {
 
 .agency-stats {
   padding: 0 0 3em 0;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -562,7 +556,7 @@ p.statstitle {
 .services-cards {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 60px;
+  grid-gap: 95px;
   margin: 0 auto;
 }
 
@@ -613,7 +607,7 @@ img.service-icon {
 
 .tech-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 3em;
   overflow: auto;
@@ -654,6 +648,11 @@ img.service-icon {
 .grid-three-column {
   display: grid;
   grid-template-columns: auto auto auto;
+  max-width: 90%;
+}
+
+.portfolio-item {
+    text-align: center;
 }
 
 .portfolio-item img {
@@ -731,9 +730,15 @@ img.service-icon {
   background-position: contain;
   background-size: cover;
 }
+.services-banner{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    padding: 10px 80px;
+
+}
 
 .services-banner-img {
-  text-align: center;
+  text-align: right;
 }
 
 .pagination {
@@ -877,6 +882,20 @@ span.year{
 .services-first-side p{
   text-align: justify;
 }
-/* .services-content{ */
-  /* width: 80%; */
-/* } */
+.cta-container{
+  width: 80%;
+}
+.contact-footer{
+  display: flex;
+}
+
+.formside {
+    width: 50%;
+    padding: 10px 100px;
+    flex-basis: content;
+}
+.mapside {
+    width: 50%;
+        padding: 10px;
+}
+
